@@ -1,0 +1,29 @@
+.heading-1{
+    color:cadetblue;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.heading-2{
+    color:cornflowerblue
+}
+.para-1{
+    color: crimson
+}
+.game-list ul li:first-of-type{
+    color: red
+}
+.game-list ul li:nth-of-type(2){
+    color:green
+}
+.game-list ul li:last-of-type{
+    color: blue
+}
+.box p{
+    color:yellowgreen
+}
+
+
