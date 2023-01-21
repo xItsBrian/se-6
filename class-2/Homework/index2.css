@@ -1,11 +1,18 @@
 .head-1{
-    color: red;
+    text-align: center;
+    background-image: url(https://myedu.it/wp-content/uploads/2018/06/MyEdu_orchestra.jpg);
+    color: tan;
+    line-height: 8;
+    font-size: 55px;
 }
 
-
-
-
-
+.head-2{
+    font-size: 40px;
+    
+}
+.para-1{
+    text-align: center;
+}
 
 
 
