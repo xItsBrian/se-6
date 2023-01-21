@@ -5,13 +5,94 @@
     line-height: 8;
     font-size: 55px;
 }
-
 .head-2{
+    text-align: center;
     font-size: 40px;
     
 }
 .para-1{
     text-align: center;
+
+}
+
+.v1{
+    font-size: 30px;
+}
+.v2{
+    font-size: 30px;
+}
+.v3{
+    font-size: 30px;
+}
+
+.div-1{
+    text-align: center;
+}
+
+.div-2{
+    
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+
+.div-3{
+    
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.div-4{
+    
+    width:33.33%;
+    float: right;
+    text-align: center;
+}
+
+.img-1{
+    max-width: 350px;
+}
+.img-2{
+    max-width: 300px;
+}
+.img-3{
+    max-width: 400px;
+}
+
+
+
+.pa{
+    text-align: center;
+}
+
+.social{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.s1{
+    background-color: black;
+    color: white;
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.s2{
+    background-color: black;
+    color: white;
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.s3{
+    background-color: black;
+    color: white;
+    width: 33%;
+    text-align: center;
+    float: left;
 }
 
 
