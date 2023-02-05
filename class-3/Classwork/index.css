@@ -1,0 +1,38 @@
+h1{
+    color: red;
+}
+.p1{
+    color: green;
+}
+.p2{
+    color: yellow;
+}
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: blanchedalmond;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,100px);
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-6{
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
