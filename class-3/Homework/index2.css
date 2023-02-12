@@ -14,9 +14,8 @@
   .topleft {
     display: flex;
     align-items: center;
-    
- 
   }
+
   .topmid {
     font-size: 13px;
     display: flex;
