@@ -15,6 +15,9 @@
     display: flex;
     align-items: center;
   }
+  .topleft i:first-of-type{
+    margin-left: 8px;
+  }
 
   .topmid {
     font-size: 13px;
@@ -74,16 +77,17 @@
   .date{
     font-weight: bold;
   }
-  .midmid {
+  .midmid{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Satisfy', cursive;
   }
-  .midright {
+  .midmid.title img {
     display: flex;
     align-items: right;
     justify-content: right;
+    height: 58px;
+    width: 470px;
   }
 
   .content3{
