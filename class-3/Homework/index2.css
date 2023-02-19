@@ -80,7 +80,7 @@
     align-items: center;
     justify-content: center;
     height: 58px;
-    width: 470px;
+    
   }
   
   .title{
@@ -156,7 +156,8 @@
   margin-bottom: 3px;
   width: 640px;
 }
-.fiveread, .sevenread, .fourread, .fouread, .sixread{
+.fiveread, .sevenread, .fourread, .fouread, .sixread, .fourrread, .twothreeread,
+.tenread, .fourrrread{
   line-height: 1px;
   font-family: 'Cairo', sans-serif;
   width: 640px;
@@ -201,6 +202,8 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px double rgb(102, 102, 102);
+  padding: 10px;
+  margin: 10px;
 }
 .img2{
   border-right: 1px double rgb(102, 102, 102);
@@ -250,13 +253,13 @@
 .fiveread{
   line-height: 1px;
 }
-.heading6, .heading8, .heading10, .heading12, .heading16{
+.heading6, .heading8, .heading10, .heading12, .heading16, .heading18{
   display: grid;
   grid-template-columns: 30% 70%;
   padding-bottom: 10px;
   border-bottom: 1px double rgb(102, 102, 102);
 }
-.img6, .img8, .img10, .img12, .img16{
+.img6, .img8, .img10, .img12, .img16, .img18{
   display: flex;
   justify-content: flex-end;
   align-items:flex-end;
@@ -266,7 +269,8 @@
   width: 520px;
   height: 347px;
 }
-.header6, .header8, .header10, .header12, .header14, .header16{
+.header6, .header8, .header10, .header12, .header14, .header16, .header18, .header18-5, 
+.header20, .header20-5, .header22, .header22-5{
 font-weight: bold;
 }
 
@@ -287,16 +291,43 @@ font-weight: bold;
 .text14-5{
   font-size: 11px;
 }
+.text18{
+  border-bottom: 1px double rgb(102, 102, 102);
+}
+
+.div18-5, .div16-5, .div12-5, .div10-5, .div8-5, .div6-5{
+  display: flex;
+  justify-content: flex-end;
+}
+.div4-5{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.heading20{
+  display:grid;
+  grid-template-columns:50% 50%;
+  border-bottom: 1px double rgb(102, 102, 102);
+}
+.img20, .img20-5, .img22, .img22-5{
+  width: 150px;
+}
+.div20, .div20-5, .div22, .div22-5{
+  margin: 5px;
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+.div20, .div22{
+  border-right: 1px double rgb(150, 149, 149);
+}
 
 
-
-
-
-
-
-
-
-
+.heading22{
+  display:grid;
+  grid-template-columns:50% 50%;
+}
 
 
 
