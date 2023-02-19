@@ -156,7 +156,7 @@
   margin-bottom: 3px;
   width: 640px;
 }
-.fiveread, .sevenread, .fourread, .fouread{
+.fiveread, .sevenread, .fourread, .fouread, .sixread{
   line-height: 1px;
   font-family: 'Cairo', sans-serif;
   width: 640px;
@@ -250,13 +250,13 @@
 .fiveread{
   line-height: 1px;
 }
-.heading6, .heading8, .heading10, .heading12{
+.heading6, .heading8, .heading10, .heading12, .heading16{
   display: grid;
   grid-template-columns: 30% 70%;
   padding-bottom: 10px;
   border-bottom: 1px double rgb(102, 102, 102);
 }
-.img6, .img8, .img10, .img12{
+.img6, .img8, .img10, .img12, .img16{
   display: flex;
   justify-content: flex-end;
   align-items:flex-end;
@@ -266,7 +266,7 @@
   width: 520px;
   height: 347px;
 }
-.header6, .header8, .header10, .header12, .header14{
+.header6, .header8, .header10, .header12, .header14, .header16{
 font-weight: bold;
 }
 
