@@ -94,8 +94,7 @@
   .midright{
     line-height: 1px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    align-items: flex-end;
     flex-direction: column;
   }
   .weather {
