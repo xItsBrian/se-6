@@ -5,6 +5,7 @@ body{
 
 nav{
     width: 100%;
+    padding: 40px 0;
 }
 
 .navcon{
@@ -38,11 +39,12 @@ nav ul{
     align-items: center;
     gap: 50px;
     list-style: none;
+    margin:0;
+    padding: 0;
 }
 
 nav ul li a, 
-nav ul li i, 
-nav ul li span{
+nav ul li i{
     text-decoration: none;
     color: white;
 }
@@ -100,4 +102,84 @@ nav ul li button{
     height: 1px;
     width: 34px;
     background-color:#ffca42;
+}
+
+.topcon h1{
+    font-size: 65px;
+    font-family: 'Cardo';
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.topcon p{
+    font-size: 19px;
+    color: #b4c7e7;
+    line-height: 180%;
+    letter-spacing: -0.01em;
+}
+
+.topcon button{
+    font-size: 19px;
+    font-family: 'Cardo';
+    list-style: 125%;
+    font-weight: 700;
+    color: #1b3764;
+    background-color:#ffca42;
+    padding: 20px 52px;
+    border:none;
+}
+
+.topcon a{
+    font-size: 19px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    font-family: 'Cardo';
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.statcon{
+    display: flex;
+    gap: 80px;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.statcon h3{
+    font-family: 'Cardo';
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.statcon p {
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: -0.01em;
+    line-height: 170%;
+    font-weight: 400;
+    color:#b4c7e7;
+}
+
+.dot{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color:#ffca42;
+}
+
+.statbox{
+    display: flex;
+    gap: 12px;
+}
+
+.statbox .dot{
+    margin-top: 5px;
 }
