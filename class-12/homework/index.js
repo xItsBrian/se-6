@@ -16,27 +16,27 @@ const students = [
     },
   ];
 
-function getnumstudent(students) {
+function numStudent(students) {
     return students.length;
 }
-function getAverageAge(students) {
+function averageAge(students) {
     let sum = 0;
     for (let i = 0; i < students.length; i++) {
       sum += students[i].age;
     }
     return sum / students.length;
 };
-function getoldeststudent(students) {
+function oldestStudent(students) {
     return students.sort().shift()
 }
-function getYoungestStudent(students) {
+function youngestStudent(students) {
     return students.sort().reverse().shift()
 }
-function getFullName(students) {
+function fullName(students) {
   return students.map(student => `${student.firstName} ${student.lastName}`);
 }
-console.log(getnumstudent(students))
-console.log(getAverageAge(students))
-console.log(getoldeststudent(students))
-console.log(getYoungestStudent(students))
-console.log(getFullName(students))
+console.log(numStudent(students))
+console.log(averageAge(students))
+console.log(oldestStudent(students))
+console.log(youngestStudent(students))
+console.log(fullName(students))
